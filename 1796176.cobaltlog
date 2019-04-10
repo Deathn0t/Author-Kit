@@ -1,0 +1,4 @@
+Jobid: 1796176
+qsub --mode script -n 1 -t 30 -A datascience -q default qsub_script_cooley.sh
+Wed Apr 10 18:45:07 2019 +0000 (UTC) submitted with cwd set to: /gpfs/mira-fs1/projects/datascience/regele/Author-Kit
+jobid 1796176 submitted from terminal /dev/pts/129
