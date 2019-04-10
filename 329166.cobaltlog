@@ -1,0 +1,30 @@
+Jobid: 329166
+qsub --mode script -n 1 -t 30 -A datascience -q debug-cache-quad qsub_script.sh
+Wed Apr 10 18:18:33 2019 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/projects/datascience/regele/Author-Kit
+jobid 329166 submitted from terminal /dev/pts/61
+2019-04-10 18:22:04,902 INFO: Starting Resource_Prologue
+2019-04-10 18:22:04,905 DEBUG: no enabling attribute found
+2019-04-10 18:22:04,905 INFO: Resource_Prologue finished with exit code 0
+Wed Apr 10 18:22:31 2019 +0000 (UTC) 
+Wed Apr 10 18:22:31 2019 +0000 (UTC) Command: '/lus/theta-fs0/projects/datascience/regele/Author-Kit/qsub_script.sh'
+Wed Apr 10 18:22:31 2019 +0000 (UTC) 
+Wed Apr 10 18:22:31 2019 +0000 (UTC) Environment:
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_PARTCORES=64
+Wed Apr 10 18:22:31 2019 +0000 (UTC) SHELL=/bin/bash
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_PROJECT=datascience
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_PARTNAME=3834
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_JOBID=329166
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_STARTTIME=1554920513
+Wed Apr 10 18:22:31 2019 +0000 (UTC) LOGNAME=regele
+Wed Apr 10 18:22:31 2019 +0000 (UTC) USER=regele
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_ENDTIME=1554922313
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_PARTSIZE=1
+Wed Apr 10 18:22:31 2019 +0000 (UTC) HOME=/home/regele
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_JOBSIZE=1
+Wed Apr 10 18:22:31 2019 +0000 (UTC) COBALT_QUEUE=debug-cache-quad
+Wed Apr 10 18:22:31 2019 +0000 (UTC) 
+Wed Apr 10 18:22:31 2019 +0000 (UTC) Info: stdin received from /dev/null
+Wed Apr 10 18:22:31 2019 +0000 (UTC) Info: stdout sent to /lus/theta-fs0/projects/datascience/regele/Author-Kit/329166.output
+Wed Apr 10 18:22:31 2019 +0000 (UTC) Info: stderr sent to /lus/theta-fs0/projects/datascience/regele/Author-Kit/329166.error
+Wed Apr 10 18:22:31 2019 +0000 (UTC) 
+Wed Apr 10 18:23:33 2019 +0000 (UTC) Info: task completed normally with an exit code of 0; initiating job cleanup and removal
