@@ -1,0 +1,4 @@
+Jobid: 329272
+qsub --mode script -n 1 -t 30 -A datascience -q debug-cache-quad qsub_script_theta_os.sh
+Wed Apr 10 21:42:06 2019 +0000 (UTC) submitted with cwd set to: /lus/theta-fs0/projects/datascience/regele/Author-Kit
+jobid 329272 submitted from terminal /dev/pts/61
